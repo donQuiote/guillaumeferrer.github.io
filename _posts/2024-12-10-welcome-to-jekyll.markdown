@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Stochastic simulation"
 date:   2024-12-10 18:53:18 +0100
 categories: jekyll update
 ---
@@ -20,6 +20,40 @@ def print_hi(name)
 end
 print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
+
+{% highlight python %}
+def compute_call_price(S_0, df, r, q, T):
+    """
+    This function simply computes the undiscounted call price in function of strike K and volatility using Black-Scholes
+    :param S_0: Initial price
+    :param df: polar dataframe with the various strikes and volatilities
+    :param r: interest rate (%)
+    :param q: dividend (%)
+    :param T: maturity [x/365]
+    :return: dataframe with 5 columns added : d1,d2,N(d1),N(d2) and C(S_0,K,vol_imp,T)_undiscounted
+    """
+    #Compute the factor d1
+    df = df.with_columns(
+        ((np.log(S_0 / pl.col("strikes")) + (r - q + (pl.col("implied vols") ** 2) / 2) * (T)) / (
+                    pl.col("implied vols") * np.sqrt(T))).alias("d1")
+    )
+    # Compute the factor d2
+    df = df.with_columns(
+        (pl.col("d1") - (pl.col("implied vols") * np.sqrt(T))).alias("d2")
+    )
+    # Compute the factor both normal cdf of d1 and d2
+    df = df.with_columns(
+        pl.col("d1").map_elements(norm.cdf, return_dtype=float).alias("N(d1)"),
+        pl.col("d2").map_elements(norm.cdf, return_dtype=float).alias("N(d2)")
+    )
+    #Use BS call price
+    df = df.with_columns(
+        ((S_0 * np.exp(-q * T) * pl.col("N(d1)") - pl.col("strikes") * np.exp(-r * T) * pl.col(
+            "N(d2)"))*np.exp(r * T)).alias("C(S_0,K,vol_imp,T)_undiscounted")
+    )
+
+    return df
 {% endhighlight %}
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
