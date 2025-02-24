@@ -27,7 +27,12 @@ user_title: Quantitative
 google-analytics:
   id: ""
 
-exclude: ['package.json', 'src' , 'node_modules']
+exclude:
+  - package.json
+  - src
+  - node_modules
+  - vendor
+
 
 title: Albator
 email: guiferrer@icloud.ch
