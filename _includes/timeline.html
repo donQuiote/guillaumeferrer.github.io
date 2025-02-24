@@ -1,0 +1,14 @@
+<div class="col mt-4">
+  <div class="timeline-body">
+    {% for item in site.data.timeline %}
+      <div class="timeline-item">
+        <div class="content">
+          <h2>{{ item.title }}</h2>
+          <h6 class="date">{{ item.from }} — {{ item.to }}</h6>
+          <p>{{ item.description }}</p>
+          <a href="{{ item.link }}" class="timeline-link">Learn More</a> <!-- Optional link if provided in the data -->
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
