@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", function () {
             },
             move: {
                 enable: true,
-                speed: 2, // Slower particle movement
+                speed: 1, // Slower particle movement
                 direction: "none",
                 random: true,
                 straight: false,

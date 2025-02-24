@@ -33,6 +33,13 @@ exclude:
   - node_modules
   - vendor
 
+collections:
+  projects:
+    output: true
+    folder: _projects   # Change the folder to reports or wherever your .md files are located
+
+
+
 
 title: Albator
 email: guiferrer@icloud.ch
