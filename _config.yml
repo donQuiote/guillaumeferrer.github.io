@@ -38,6 +38,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  donQuiote
 
 # Build settings
+runs-on: ubuntu-latest
 theme: minima
 #remote_theme: nrandecker/particle
 plugins:
