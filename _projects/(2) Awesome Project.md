@@ -1,8 +1,9 @@
 ---
-name: The Movies Project
-tools: [C#, XML, WPF]
-image: https://www.sketchappsources.com/resources/source-image/movie-badges-jurajjurik.png
-description: This project has an individual showcase page, not just a direct link to the project site or repo. Now you have more space to describe your awesome project!
+name: "Decoding Future Stock Returns: Revealing the Key Predictors"
+tools: [Stock return prediction, Machine learning, Penalized least squares, Neural net-
+work, Elastic Net, Panel data, Cross-sectional & Time-series Fitting]
+image: /assets/img/MLFIN.png
+description: "This report investigates 212 firm characteristics proposed by Chen and Zimmermann in their paper on Open Source Cross-Sectional Asset Pricing. We aim to find a concise subset of these characteristics that effectively describes stock returns. In order to run machine learning methods, we applied thorough data preprocessing to eliminate highly correlated predictors and used data fitting algorithms to address the high density of missing values. The methods used include Sequential Forward Floating Selection (SFFS), Bootstrapped-Enhanced Lasso, Bootstrapped-Enhanced Elastic Net, and Nonparametric Estimation. For each method, we described the implementation process, results, and limitations. Each model successfully reduces the number of predictors, we assessed the quality of these subsets using a deep neural network, it achieves an out of sample accuracy of 52.96% ."
 ---
 
 # The Movies Project
