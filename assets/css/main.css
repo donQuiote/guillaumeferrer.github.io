@@ -533,44 +533,115 @@ body {
   color: #fff;
 }
 
-.project-section{
- position: relative;
-  border-radius: 42px; /* Rounded corners for the entire container */
-  padding: 20px 0;
-  margin: 20px auto;
-  padding-left: 50px;
-  padding-right: 50px;
-  max-width: 960px;
+/* Ensure the projects section follows the same margin and width as #about */
+#projects-container {
   width: 90%;
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+@media only screen and (min-width: 550px) {
+  #projects-container {
+    width: 80%;
+  }
+}
+
+#index {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 16px;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 20px; /* Space between cards */
+  justify-content: center;
+  align-items: start;
+  padding: 20px;
 }
-.project.card {
-  border-radius: 10px; /* Replace with your desired value */
+
+.project-card {
+  border-radius: 15px;
   text-decoration: none !important;
-  margin: 10px auto;
-  color: #00adef;
-}
-
-.project.card .card-img-top {
-  border-radius: 10px 10px 0 0; /* Replace with your desired value */
-}
-
-.project.card {
+  background: #222; /* Dark background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 400ms;
+  padding-left: 5px;
+  padding-bottom: 5px;
 }
 
-.project.card:hover:not(.post) {
+.card {
+    background-color: #6f654e;
+  }
+  .card.border {
+    .card-footer {
+      background-color: rgba(0, 0, 0, 0.1);
+    }
+  }
+
+/* Modify text-themed color */
+.text-themed {
+  color: #6f654e !important;  /* Make text color white */
+}
+
+.card-body {
+    border-radius: 15px;
+    background: #6f654e; /* Beige */
+    color: #333;
+}
+
+/* Change text color inside the card */
+.project-card h5,
+.project-card p {
+  color: #121212; /* White text */
+}
+
+/* Change color of badges (tools) */
+.project-card .badge {
+  background: #00adef; /* Blue badges */
+  color: #fff;
+}
+
+/* Card hover effect */
+.project-card:hover {
   transform: translateY(-8px);
   box-shadow: -2px 8px 40px -12px rgba(0, 0, 0, 0.24);
+  background: #333; /* Slightly lighter dark on hover */
 }
-.card-columns {
-  display: flex !important;
-  flex-wrap: nowrap !important;
+
+
+.project-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px 5px 0 0;
+}
+
+@media only screen and (max-width: 900px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns on medium screens */
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .projects-grid {
+    grid-template-columns: repeat(1, 1fr); /* 1 column on small screens */
+  }
+}
+
+
+.skills {
+  position: relative;
+  justify-content: center;
+  align-items: start;
+  padding: 20px;
+  padding: 20px 0;
+  margin: 20px auto;
+  max-width: 960px;
+  width: 90%;
 }
 
 
