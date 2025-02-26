@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8df9529b-bf70-4158-b8e7-ca02cf4f208f" name="Changes" comment="include workflow">
+    <list default="true" id="8df9529b-bf70-4158-b8e7-ca02cf4f208f" name="Changes" comment="Projects incoming">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_includes/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/head.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/project-card.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/project-card.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/default.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +92,8 @@
       <workItem from="1733856560248" duration="9721000" />
       <workItem from="1740330858687" duration="25005000" />
       <workItem from="1740396013403" duration="9964000" />
-      <workItem from="1740410226160" duration="4085000" />
+      <workItem from="1740410226160" duration="4229000" />
+      <workItem from="1740492431726" duration="7573000" />
     </task>
     <task id="LOCAL-00001" summary="small tests">
       <option name="closed" value="true" />
@@ -150,7 +151,23 @@
       <option name="project" value="LOCAL" />
       <updated>1740402081992</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Projects incoming">
+      <option name="closed" value="true" />
+      <created>1740414570153</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1740414570153</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Projects incoming">
+      <option name="closed" value="true" />
+      <created>1740414592153</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1740414592153</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,6 +191,7 @@
     <MESSAGE value="Set Ruby version to 3.3.5" />
     <MESSAGE value="modify error build" />
     <MESSAGE value="include workflow" />
-    <option name="LAST_COMMIT_MESSAGE" value="include workflow" />
+    <MESSAGE value="Projects incoming" />
+    <option name="LAST_COMMIT_MESSAGE" value="Projects incoming" />
   </component>
 </project>

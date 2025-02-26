@@ -434,6 +434,10 @@ summary {
 /* User Projects */
 .user-projects {
   margin: 20px auto;
+   position: relative;
+  padding: 20px 0;
+  max-width: 960px;
+  width: 90%;
 }
 
 .user-projects img {
@@ -529,6 +533,17 @@ body {
   color: #fff;
 }
 
+.project-section{
+ position: relative;
+  border-radius: 42px; /* Rounded corners for the entire container */
+  padding: 20px 0;
+  margin: 20px auto;
+  padding-left: 50px;
+  padding-right: 50px;
+  max-width: 960px;
+  width: 90%;
+}
+
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -538,6 +553,7 @@ body {
   border-radius: 10px; /* Replace with your desired value */
   text-decoration: none !important;
   margin: 10px auto;
+  color: #00adef;
 }
 
 .project.card .card-img-top {
@@ -551,6 +567,10 @@ body {
 .project.card:hover:not(.post) {
   transform: translateY(-8px);
   box-shadow: -2px 8px 40px -12px rgba(0, 0, 0, 0.24);
+}
+.card-columns {
+  display: flex !important;
+  flex-wrap: nowrap !important;
 }
 
 
