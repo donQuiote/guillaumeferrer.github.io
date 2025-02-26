@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8df9529b-bf70-4158-b8e7-ca02cf4f208f" name="Changes" comment="Projects incoming">
-      <change afterPath="$PROJECT_DIR$/_projects/Deep_learning.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_projects/Stochastic_Sim.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/Ticker_strat_overtime_families.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/preview_big_data.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/skills.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/skills.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_projects/(1) PlaceHolder Project.md" beforeDir="false" afterPath="$PROJECT_DIR$/_projects/(1) PlaceHolder Project.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/head.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +95,7 @@
       <workItem from="1740396013403" duration="9964000" />
       <workItem from="1740410226160" duration="4229000" />
       <workItem from="1740492431726" duration="7855000" />
-      <workItem from="1740590307052" duration="6875000" />
+      <workItem from="1740590307052" duration="7845000" />
     </task>
     <task id="LOCAL-00001" summary="small tests">
       <option name="closed" value="true" />
@@ -185,7 +177,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740565314608</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Projects incoming">
+      <option name="closed" value="true" />
+      <created>1740598030683</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1740598030683</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
