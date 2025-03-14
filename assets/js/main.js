@@ -5,57 +5,58 @@ document.addEventListener("DOMContentLoaded", function () {
     particlesJS("particles-js", {
         particles: {
             number: {
-                value: 40,
+                value: 80,
                 density: {
                     enable: true,
                     value_area: 800
                 }
             },
             color: {
-    value: [
-        "#32CD32", // Lime Green (Darker)
-        "#7CFC00", // Lawn Green
-        "#ADFF2F", // Green Yellow
-        "#9ACD32", // Yellow Green
-        "#FFFF00", // Yellow
-        "#FFD700", // Gold
-        "#FFA500", // Orange
-        "#FF8C00", // Dark Orange
-        "#FF4500", // Orange Red
-        "#DC143C", // Crimson
-        "#FF0000", // Red
-    ]
-},
-        shape: {
-            type: "circle",
-            stroke: { width: 0, color: "#000000" }
-        },
+                value: [
+                    "#1E90FF", // Dodger Blue
+                    "#4169E1", // Royal Blue
+                    "#0000CD", // Medium Blue
+                    "#00008B", // Dark Blue
+                    "#FFFFFF", // White
+                    "#F0F8FF", // Alice Blue
+                    "#E6F3FF", // Light Blue
+                    "#B0E0E6"  // Powder Blue
+                ]
+            },
+            shape: {
+                type: "circle",
+                stroke: { 
+                    width: 1, 
+                    color: "#FFFFFF" 
+                }
+            },
             opacity: {
-                value: 0.85,
+                value: 0.6,
                 random: false,
                 anim: {
                     enable: false
                 }
             },
             size: {
-                value: 7.5,
+                value: 3,
                 random: true,
                 anim: {
                     enable: true,
-                    speed: 0.5,
-                    size_min: 3,
+                    speed: 0.2,
+                    size_min: 1,
                     sync: false
                 }
             },
             line_linked: {
                 enable: true,
                 distance: 150,
-                opacity: 0.4,
+                color: "#FFFFFF",
+                opacity: 0.15,
                 width: 1
             },
             move: {
                 enable: true,
-                speed: 1, // Slower particle movement
+                speed: 0.15,
                 direction: "none",
                 random: true,
                 straight: false,
@@ -73,17 +74,17 @@ document.addEventListener("DOMContentLoaded", function () {
             events: {
                 onhover: {
                     enable: true,
-                    mode: "repulse" // Repulsion effect on hover
+                    mode: "repulse"
                 },
                 onclick: {
                     enable: true,
-                    mode: "push" // Adds particles on click
+                    mode: "push"
                 },
                 resize: true
             },
             modes: {
                 repulse: {
-                    distance: 200,
+                    distance: 80,
                     duration: 0.4
                 },
                 push: {
@@ -94,10 +95,9 @@ document.addEventListener("DOMContentLoaded", function () {
         retina_detect: true
     });
 
-
     // Set the background color to dark mode with financial grid lines
     const particlesContainer = document.getElementById('particles-js');
     if (particlesContainer) {
-        particlesContainer.style.background = 'linear-gradient(135deg, #000000, #1a1a1a)'; // Dark background
+        particlesContainer.style.background = 'linear-gradient(135deg, #000000, #1a1a1a)';
     }
 });

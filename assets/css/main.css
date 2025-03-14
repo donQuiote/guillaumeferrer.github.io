@@ -12,7 +12,7 @@ html {
 /* Basic styling for body */
 body {
   margin: 0; /* Remove default margin */
-  background-color: #333333; /* Set background color */
+  background-color: #17191a; /* Set background color */
 }
 
 /* Block-level elements */
@@ -305,6 +305,11 @@ summary {
   text-align: center;
 }
 
+.header-icons a {
+  color: #fff;
+  text-decoration: none;
+}
+
 .down,
 .header-icons .icon {
   color: #fff;
@@ -314,18 +319,19 @@ summary {
 .header-icons .icon {
   height: 20px;
   padding: 10px;
-  border-radius: 50%;
-  border: 2px solid #fff;
   transition: all 0.7s;
   width: 20px;
   font-size: 20px;
   margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: inherit;
 }
 
 .header-icons .icon:active,
 .header-icons .icon:hover {
   color: #1a222c;
-  background: #fff;
 }
 
 @media only screen and (min-width: 550px) {
@@ -373,7 +379,7 @@ summary {
 #about {
   width: 90%;
   margin: 0 auto;
-  max-width: 960px;
+  max-width: 1160px;
   color: #d3d3d3; /* Text color set to light grey */
 }
 
@@ -421,7 +427,7 @@ summary {
   flex-direction: column;
   justify-content: space-between;
   width: 90%;
-  max-width: 960px;
+  max-width: 1160px;
   margin: 0 auto;
 }
 
@@ -537,7 +543,7 @@ body {
 #projects-container {
   width: 90%;
   margin: 0 auto;
-  max-width: 960px;
+  max-width: 1160px;
 }
 
 @media only screen and (min-width: 550px) {
@@ -551,7 +557,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   width: 90%;
-  max-width: 960px;
+  max-width: 1160px;
   margin: 0 auto;
 }
 
@@ -560,35 +566,43 @@ body {
         -webkit-column-count: 3;
         -moz-column-count: 3;
         column-count: 3;
-        -webkit-column-gap: 1.25rem;
-        -moz-column-gap: 1.25rem;
-        column-gap: 1.25rem;
+        -webkit-column-gap: 2rem;  /* Augmenté de 1.25rem à 2rem */
+        -moz-column-gap: 2rem;
+        column-gap: 2rem;
         orphans: 1;
         widows: 1;
+        -webkit-row-gap: 6rem;     /* Augmenté de 5.25rem à 6rem */
+        -moz-row-gap: 6rem;
+        row-gap: 6rem;
+        break-inside: avoid;       /* Empêche la coupure des cartes */
     }
 }
 
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* 3 columns */
-  gap: 20px; /* Space between cards */
+  gap: 40px; /* Space between cards */
   justify-content: center;
   align-items: start;
   padding: 20px;
 }
 
 .project-card {
-  border-radius: 15px;
-  text-decoration: none !important;
-  background: #222; /* Dark background */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 400ms;
-  padding-left: 5px;
-  padding-bottom: 5px;
+    break-inside: avoid;           /* Empêche la coupure des cartes */
+    margin-bottom: 2rem;           /* Ajoute une marge en bas */
+    border-radius: 15px;
+    text-decoration: none !important;
+    background: rgba(14, 14, 14, 0.8);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 400ms;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    display: inline-block;         /* Assure que la carte reste intacte */
+    width: 100%;                   /* Assure que la carte prend toute la largeur */
 }
 
 .card {
-    background-color: #6f654e;
+    background-color: #504f4f;
   }
   .card.border {
     .card-footer {
@@ -598,19 +612,19 @@ body {
 
 /* Modify text-themed color */
 .text-themed {
-  color: #6f654e !important;  /* Make text color white */
+  color: #504f4f !important;  /* Make text color white */
 }
 
 .card-body {
     border-radius: 15px;
-    background: #6f654e; /* Beige */
+    background: #504f4f; /* Beige */
     color: #333;
 }
 
 /* Change text color inside the card */
 .project-card h5,
 .project-card p {
-  color: #121212; /* White text */
+  color: #d3d3d3; /* White text */
 }
 
 /* Change color of badges (tools) */
@@ -653,7 +667,7 @@ body {
   padding: 20px;
   padding: 20px 0;
   margin: 20px auto;
-  max-width: 960px;
+  max-width: 1160px;
   width: 90%;
 }
 
@@ -664,7 +678,7 @@ body {
   border-radius: 42px; /* Rounded corners for the entire container */
   padding: 20px 0;
   margin: 20px auto;
-  max-width: 960px;
+  max-width: 1160px;
   width: 90%;
   background-color: #504f4f; /* Dark gray background */
 }

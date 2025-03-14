@@ -5,19 +5,22 @@
       {% include header.html %}
       <section id="about">
         {% include about.html %}
-          </section>
+      </section>
       <section id="Projects">
         {% include index.html title="Projects" %}
-          </section>
+      </section>
       <section id="skills">
         {% include skills.html title="Programming Skills" %}
-        </section>
+      </section>
+      <section id="libraries">
+        {% include libraries.html %}
+      </section>
       <section id="timeline">
-    {% include timeline.html %}
+        {% include timeline.html %}
       </section>
-      <section id="projects2">
+      <!--<section id="projects2">
         {% include projects.html %}
-      </section>
-        {{ content }}
+      </section>-->
+      {{ content }}
       {% include footer.html %}
   </body>

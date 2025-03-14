@@ -1,0 +1,112 @@
+<!-- Ajout du CDN Devicon -->
+<link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
+<div class="libraries-container">
+  <div class="libraries-grid">
+    <div class="tech">
+      <h2>Data Analysis</h2>
+      <div class="tech-icons">
+        <i class="devicon-numpy-plain colored"></i>
+        <i class="devicon-pandas-plain colored"></i>
+        <i class="devicon-scipy-plain colored"></i> <!-- scipy -->
+        <i class="fas fa-database" style="color: #00B4D8;"></i> <!-- polars -->
+      </div>
+      <p>Data Manipulation & Analysis</p>
+    </div>
+    <div class="tech">
+      <h2>Visualization</h2>
+      <div class="tech-icons">
+        <i class="devicon-matplotlib-plain"></i>
+        <img src="assets/img/logo-tall-lightbg.svg" alt="Seaborn Logo" class="custom-icon2" /><!-- seaborn -->
+        <i class="devicon-plotly-plain colored"></i>
+        <img src="assets/img/shap.svg" alt="SHAP Logo" class="custom-icon" /> <!--SHAP-->
+      </div>
+      <p>Data Visualization & Insights</p>
+    </div>
+    <div class="tech">
+      <h2>Machine Learning</h2>
+      <div class="tech-icons">
+        <i class="devicon-pytorch-plain colored"></i>
+        <i class="devicon-tensorflow-original colored"></i>
+        <i class="devicon-scikitlearn-plain colored"></i>
+        <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="Hugging Face Logo" style="width: 40px; height: 40px;"> <!-- hugging face -->
+      </div>
+      <p>Deep Learning & ML</p>
+    </div>
+  </div>
+</div>
+
+
+<style>
+.libraries-container {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1160px;
+  color: #d3d3d3;
+  padding: 2rem 0;
+}
+
+.libraries-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  align-items: center;
+}
+
+.tech {
+  text-align: center;
+  padding: 1rem;
+}
+
+.tech h2 {
+  margin-bottom: 1.5rem;
+  color: var(--text-color);
+}
+
+.tech-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.tech-icons i {
+  font-size: 3rem;
+  transition: transform 0.3s ease;
+}
+
+.tech-icons i:hover {
+  transform: scale(1.2);
+}
+
+.tech p {
+  font-size: 1rem;
+  color: var(--text-muted);
+}
+
+@media only screen and (max-width: 768px) {
+  .libraries-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .tech-icons i {
+    font-size: 2.5rem;
+  }
+}
+
+.custom-icon {
+  width: 120px;
+  height: 120px;
+  display: inline-block;
+  transform: translateY(-36px);
+  margin-bottom: -50px;
+}
+.custom-icon2 {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  margin-right:  -50px;
+  border: 10px;
+}
+</style> 
