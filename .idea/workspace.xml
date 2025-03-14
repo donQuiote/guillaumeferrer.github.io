@@ -4,21 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8df9529b-bf70-4158-b8e7-ca02cf4f208f" name="Changes" comment="Projects incoming">
-      <change afterPath="$PROJECT_DIR$/_projects/(2) Deep_learning.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/shap.svg" afterDir="false" />
+    <list default="true" id="8df9529b-bf70-4158-b8e7-ca02cf4f208f" name="Changes" comment="Cleanup&#10;projects to add">
+      <change afterPath="$PROJECT_DIR$/_projects/(5) MLESA.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_projects/(6) Storage_Option.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/storage_option.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/programming-skills.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/programming-skills.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/head.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_includes/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/libraries.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/libraries.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/project-card.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/project-card.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_includes/skills.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/skills.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/default.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_projects/(1) Stochastic_Sim.md" beforeDir="false" afterPath="$PROJECT_DIR$/_projects/(1) Stochastic_Sim.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_projects/(2) Awesome Project.md" beforeDir="false" afterPath="$PROJECT_DIR$/_projects/(3) MLFIN.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_projects/Deep_learning.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +105,7 @@
       <workItem from="1740492431726" duration="7855000" />
       <workItem from="1740590307052" duration="10470000" />
       <workItem from="1740647838740" duration="5543000" />
-      <workItem from="1741899103681" duration="10588000" />
+      <workItem from="1741899103681" duration="18486000" />
     </task>
     <task id="LOCAL-00001" summary="small tests">
       <option name="closed" value="true" />
@@ -216,7 +211,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740601333268</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Cleanup&#10;projects to add">
+      <option name="closed" value="true" />
+      <created>1741913503555</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1741913503555</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,6 +244,7 @@
     <MESSAGE value="modify error build" />
     <MESSAGE value="include workflow" />
     <MESSAGE value="Projects incoming" />
-    <option name="LAST_COMMIT_MESSAGE" value="Projects incoming" />
+    <MESSAGE value="Cleanup&#10;projects to add" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleanup&#10;projects to add" />
   </component>
 </project>

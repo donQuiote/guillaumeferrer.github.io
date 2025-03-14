@@ -633,6 +633,13 @@ body {
   color: #fff;
 }
 
+/* Style for smaller badges */
+.small-badge {
+  font-size: 0.65rem;
+  padding: 0.15rem 0.4rem;
+  line-height: 1.2;
+}
+
 /* Card hover effect */
 .project-card:hover {
   transform: translateY(-8px);
@@ -765,4 +772,33 @@ body {
   background-color: #54516a; /* Hover and active state */
   color: #fff;
   border-color: #54516a;
+}
+
+.tech-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin: 1rem 0;
+}
+
+.tech-icons i {
+  font-size: 3rem;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.tech-icons .custom-icon,
+.tech-icons .custom-icon2,
+.tech-icons .custom-iconscipy,
+.tech-icons .custom-iconpolar {
+  width: 3rem;
+  height: 3rem;
+  object-fit: contain;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  transform: none;
 }

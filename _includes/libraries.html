@@ -6,19 +6,21 @@
     <div class="tech">
       <h2>Data Analysis</h2>
       <div class="tech-icons">
-        <i class="devicon-numpy-plain colored"></i>
-        <i class="devicon-pandas-plain colored"></i>
-        <i class="devicon-scipy-plain colored"></i> <!-- scipy -->
-        <i class="fas fa-database" style="color: #00B4D8;"></i> <!-- polars -->
+        <i class="devicon-numpy-plain-wordmark"></i>
+        <i class="devicon-pandas-plain-wordmark"></i>
+        <img src="assets/img/Scipy.svg" alt="Scipy Logo" class="custom-iconscipy" /><!-- scipy -->
+        <img src="assets/img/polars_logo_white_text.svg" alt="Polars Logo" class="custom-iconpolar" /></i> <!-- polars -->
       </div>
       <p>Data Manipulation & Analysis</p>
     </div>
     <div class="tech">
       <h2>Visualization</h2>
       <div class="tech-icons">
-        <i class="devicon-matplotlib-plain"></i>
+        <i class="devicon-matplotlib-plain-wordmark"></i>
+
+            <i class="devicon-plotly-plain-wordmark"></i>
+
         <img src="assets/img/logo-tall-lightbg.svg" alt="Seaborn Logo" class="custom-icon2" /><!-- seaborn -->
-        <i class="devicon-plotly-plain colored"></i>
         <img src="assets/img/shap.svg" alt="SHAP Logo" class="custom-icon" /> <!--SHAP-->
       </div>
       <p>Data Visualization & Insights</p>
@@ -26,9 +28,9 @@
     <div class="tech">
       <h2>Machine Learning</h2>
       <div class="tech-icons">
-        <i class="devicon-pytorch-plain colored"></i>
-        <i class="devicon-tensorflow-original colored"></i>
-        <i class="devicon-scikitlearn-plain colored"></i>
+        <i class="devicon-pytorch-plain-wordmark colored"></i>
+        <i class="devicon-tensorflow-original-wordmark colored"></i>
+        <i class="devicon-scikitlearn-plain-wordmark colored"></i>
         <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="Hugging Face Logo" style="width: 40px; height: 40px;"> <!-- hugging face -->
       </div>
       <p>Deep Learning & ML</p>
@@ -96,13 +98,29 @@
 }
 
 .custom-icon {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  transform: translateY(-165px);
+  transform: translateX(36px);
+  margin-bottom: -50px;
+}
+.custom-iconpolar {
   width: 120px;
   height: 120px;
   display: inline-block;
-  transform: translateY(-36px);
+  transform: translateY(-265px);
+  transform: translateX(36px);
   margin-bottom: -50px;
 }
 .custom-icon2 {
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  margin-right:  -50px;
+  border: 10px;
+}
+.custom-iconscipy {
   width: 40px;
   height: 40px;
   display: inline-block;
