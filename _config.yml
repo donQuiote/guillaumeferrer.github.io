@@ -20,8 +20,8 @@
 
 # User settings
 username: Guillaume Ferrer
-user_description: This page is a mere description of myself
-user_title: Quantitative
+user_description: Welcome to my website! I'm a quantitative researcher in finance with a passion for data science and machine learning.
+user_title: Quantitative Researcher
 
 # Google-analytics
 google-analytics:
@@ -44,7 +44,7 @@ collections:
 title: Albator
 email: guiferrer@icloud.ch
 description: >- # this means to ignore newlines until "baseurl:"
-  This page is a mere description of myself
+  Welcome to my website! I'm a quantitative researcher in finance with a passion for data science and machine learning.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  donQuiote

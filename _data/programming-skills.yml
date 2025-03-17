@@ -1,7 +1,3 @@
-- name: HTML5/CSS3
-  percentage: 90
-  color: primary
-
 - name: Python
   percentage: 95
   color: primary
@@ -11,9 +7,13 @@
   color: primary
 
 - name: SQL
-  percentage: 85
+  percentage: 90
   color: primary
 
 - name: Matlab
-  percentage: 80
+  percentage: 60
+  color: primary
+
+- name: HTML5/CSS3
+  percentage: 60
   color: primary

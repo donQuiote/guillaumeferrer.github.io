@@ -1,13 +1,28 @@
-
 <div class="col mt-4">
   <div class="timeline-body">
     {% for item in site.data.timeline %}
       <div class="timeline-item">
         <div class="content">
-          <h2>{{ item.title }}</h2>
-          <h6 class="date">{{ item.from }} — {{ item.to }}</h6>
-          <p>{{ item.description }}</p>
-          <a href="{{ item.link }}" class="timeline-link">Learn More</a> <!-- Optional link if provided in the data -->
+          <div class="d-flex justify-content-between align-items-center mb-3">
+            <div>
+              <h2 class="mb-1">{{ item.title }}</h2>
+              <h5 class="mb-2">{{ item.school }}</h5>
+              <h6 class="date" style="color: #b3b3b3;">{{ item.from }} — {{ item.to }}</h6>
+            </div>
+            <div class="ms-4">
+              {% if item.school contains "EPFL" %}
+                <img src="{{ site.baseurl }}/assets/img/EPFL_Logo_184X53.svg" alt="EPFL Logo" style="height: 40px;">
+              {% elsif item.school contains "ETH" %}
+                <img src="{{ site.baseurl }}/assets/img/eth.svg" alt="ETH Logo" style="height: 40px;">
+              {% endif %}
+            </div>
+          </div>
+          <div class="description">
+            <p>{{ item.description }}</p>
+          </div>
+          {% if item.link %}
+            <a href="{{ item.link }}" class="timeline-link">Learn More</a>
+          {% endif %}
         </div>
       </div>
     {% endfor %}

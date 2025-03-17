@@ -6,15 +6,15 @@
   <div class="skills-grid">
     <!-- Colonne de gauche : texte descriptif -->
     <div class="skills-text">
-      <h3>Compétences Techniques</h3>
-      <p>Je suis spécialisé dans le développement de solutions analytiques et de modélisation financière, utilisant principalement Python et C++ pour le traitement des données et l'implémentation d'algorithmes.</p>
-      
+      <h3>Technical Skills</h3>
+      <p>I specialize in developing analytical solutions and financial models, leveraging Python and C++ for data processing, algorithm design, and performance optimization.</p>
+
       <h3>Expertise</h3>
       <ul>
-        <li>Développement d'algorithmes de trading et d'analyse financière</li>
-        <li>Modélisation statistique et machine learning</li>
-        <li>Optimisation de performances et développement de systèmes distribués</li>
-        <li>Analyse et visualisation de données financières</li>
+        <li>Design and implementation of quantitative finance algorithms</li>
+        <li>Statistical modeling and machine learning</li>
+        <li>Performance optimization and distributed system architecture</li>
+        <li>Analysis and visualization of complex financial data</li>
       </ul>
     </div>
 
@@ -25,15 +25,15 @@
           <div class="skill-icon">
             {% case skill.name %}
               {% when 'Python' %}
-                <i class="devicon-python-plain"></i>
+                <i class="devicon-python-plain colored"></i>
               {% when 'C++' %}
-                <i class="devicon-cplusplus-plain"></i>
+                <i class="devicon-cplusplus-plain colored"></i>
               {% when 'SQL' %}
                 <i class="devicon-mysql-plain"></i>
               {% when 'Matlab' %}
                 <img src="assets/img/matlab-svgrepo-com.svg" alt="Matlab Logo" class="custom-iconmatlab" data-tooltip="SciPy" />
               {% when 'HTML5/CSS3' %}
-                <i class="devicon-html5-plain"></i>
+                <i class="devicon-html5-plain colored"></i>
             {% endcase %}
           </div>
           <div class="progress">
@@ -46,7 +46,15 @@
               aria-valuemax="100">
             </div>
           </div>
-          <div class="skill-percentage">{{ skill.percentage }}%</div>
+          <div class="skill-percentage">
+            {% if skill.percentage >= 90 %}
+              Advanced
+            {% elsif skill.percentage == 60 %}
+              Intermediate
+            {% else %}
+              {{ skill.percentage }}%
+            {% endif %}
+          </div>
         </div>
       {% endfor %}
     </div>
@@ -188,9 +196,10 @@
 .skill-percentage {
   color: rgba(255, 255, 255, 0.85);
   white-space: nowrap;
-  min-width: 45px;
+  min-width: 80px;
   text-align: right;
   font-weight: 500;
+  font-size: 0.9rem;
 }
 
 .progress {

@@ -252,7 +252,7 @@ summary {
 
 /* Site Title */
 .header .site-title {
-  font-size: 50px;
+  font-size: 30px;
   display: block;
   line-height: 1;
   color: #fff;
@@ -261,13 +261,13 @@ summary {
 @media only screen and (min-width: 550px) {
   .header .site-title {
     margin: 0;
-    font-size: 100px;
+    font-size: 60px;
   }
 }
 
 /* Site Description */
 .header .site-description {
-  font-size: 20px;
+  font-size: 15px;
   display: block;
   line-height: 1;
   color: #fff;
@@ -276,7 +276,7 @@ summary {
 
 @media only screen and (min-width: 550px) {
   .header .site-description {
-    font-size: 40px;
+    font-size: 25px;
   }
 }
 
@@ -522,11 +522,29 @@ body {
 
 /* Footer */
 .footer {
-  background: #1a222c;
-  padding: 10px 0;
-  margin-top: 100px;
   text-align: center;
+  padding: 2rem 0;
+  background: linear-gradient(180deg, #17191a, #0d0e0e);
   color: #fff;
+  margin-top: 2rem;
+}
+
+.footer-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.footer-copyright {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.footer-description {
+  font-size: 0.9rem;
+  color: #b3b3b3;
+  line-height: 1.6;
 }
 
 .footer .love {
@@ -794,11 +812,48 @@ body {
 .tech-icons .custom-icon2,
 .tech-icons .custom-iconscipy,
 .tech-icons .custom-iconpolar {
-  width: 3rem;
-  height: 3rem;
+  width: 4.5rem;
+  height: 4.5rem;
   object-fit: contain;
   display: flex;
   align-items: center;
   margin: 0;
   transform: none;
+  transition: transform 0.3s ease;
+}
+
+.tech-icons .custom-icon:hover,
+.tech-icons .custom-icon2:hover,
+.tech-icons .custom-iconpolar:hover,
+img[alt="Hugging Face Logo"]:hover {
+  transform: scale(1.2);
+}
+
+.tech-icons .custom-iconscipy {
+  width: 3.5rem;
+  height: 3.5rem;
+  object-fit: contain;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  transform: none;
+  transition: transform 0.3s ease;
+}
+
+.tech-icons .custom-iconscipy:hover {
+  transform: scale(1.2);
+}
+
+img[alt="Hugging Face Logo"] {
+  transition: transform 0.3s ease;
+}
+
+@media only screen and (max-width: 768px) {
+  .tech-icons .custom-icon,
+  .tech-icons .custom-icon2,
+  .tech-icons .custom-iconpolar,
+  .tech-icons .custom-iconscipy {
+    width: 3rem;
+    height: 3rem;
+  }
 }
