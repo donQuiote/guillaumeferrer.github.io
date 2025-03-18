@@ -857,3 +857,134 @@ img[alt="Hugging Face Logo"] {
     height: 3rem;
   }
 }
+
+/* Experience Section */
+.experience-section {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1160px;
+  padding: 40px 0;
+}
+
+.experience-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.experience-item {
+  background: rgba(36, 36, 36, 0.8);
+  border-radius: 15px;
+  padding: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 400ms;
+}
+
+.experience-item:hover {
+  transform: translateY(-5px);
+  box-shadow: -2px 8px 40px -12px rgba(0, 0, 0, 0.24);
+}
+
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.experience-left {
+  flex: 1;
+  margin-right: 2rem;
+}
+
+.experience-right {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.experience-rightepfl {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-100%);
+  margin-top: 1rem;
+}
+
+.company-logo {
+  height: 25px;
+  width: auto;
+  display: block;
+}
+
+@media only screen and (max-width: 768px) {
+  .experience-header {
+    flex-direction: column;
+  }
+
+  .experience-right {
+    position: static;
+    transform: none;
+    margin-top: 1rem;
+  }
+
+  .company-logo {
+    height: 20px;
+  }
+}
+
+.experience-title {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #fff;
+  padding-top: 10px;
+}
+
+.experience-date {
+  margin: 0;
+  color: #666;
+  font-size: 0.85rem;
+}
+
+.experience-company {
+  font-size: 1.2rem;
+  color: #007bff;
+  margin: 0.5rem 0;
+}
+
+.experience-info {
+  display: flex;
+  gap: 1rem;
+  color: #888;
+  font-size: 0.9rem;
+  flex-direction: row;
+  align-items: center;
+}
+
+.experience-location,
+.experience-date {
+  margin: 0;
+  line-height: 1.4;
+}
+
+@media only screen and (max-width: 768px) {
+  .experience-info {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+}
+
+.experience-company a {
+  text-decoration: none;
+  color: #007bff;
+  transition: all 0.2s ease;
+  -webkit-text-stroke: 0.5px rgba(255, 255, 255, 0.3);
+}
+
+.experience-company a:hover {
+  transform: scale(1.05);
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.5);
+}

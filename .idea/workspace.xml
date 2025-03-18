@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8df9529b-bf70-4158-b8e7-ca02cf4f208f" name="Changes" comment="Adding projects and updating layout">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/programming-skills.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/programming-skills.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/timeline.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/timeline.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/libraries.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/libraries.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/skills.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/skills.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/timeline.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/timeline.html" afterDir="false" />
+    <list default="true" id="8df9529b-bf70-4158-b8e7-ca02cf4f208f" name="Changes" comment="Forgot to add the svg">
+      <change beforePath="$PROJECT_DIR$/_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/default.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/index.markdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page.md" beforeDir="false" afterPath="$PROJECT_DIR$/page.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +98,7 @@
       <workItem from="1740492431726" duration="7855000" />
       <workItem from="1740590307052" duration="10470000" />
       <workItem from="1740647838740" duration="5543000" />
-      <workItem from="1741899103681" duration="30555000" />
+      <workItem from="1741899103681" duration="31075000" />
     </task>
     <task id="LOCAL-00001" summary="small tests">
       <option name="closed" value="true" />
@@ -237,7 +228,23 @@
       <option name="project" value="LOCAL" />
       <updated>1741979125625</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Cleaned, Professional expreience missing">
+      <option name="closed" value="true" />
+      <created>1742253970937</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1742253970937</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Forgot to add the svg">
+      <option name="closed" value="true" />
+      <created>1742253993212</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1742253993212</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,6 +271,8 @@
     <MESSAGE value="Projects incoming" />
     <MESSAGE value="Cleanup&#10;projects to add" />
     <MESSAGE value="Adding projects and updating layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding projects and updating layout" />
+    <MESSAGE value="Cleaned, Professional expreience missing" />
+    <MESSAGE value="Forgot to add the svg" />
+    <option name="LAST_COMMIT_MESSAGE" value="Forgot to add the svg" />
   </component>
 </project>
