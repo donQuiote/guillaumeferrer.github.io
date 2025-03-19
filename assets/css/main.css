@@ -419,6 +419,8 @@ summary {
 .user-details {
   text-align: center;
   margin: 5px auto;
+  margin-top: 10px;
+  margin-bottom: 15px;
 }
 
 /* Projects Section */
@@ -559,14 +561,14 @@ body {
 
 /* Ensure the projects section follows the same margin and width as #about */
 #projects-container {
-  width: 90%;
+  width: 95%;
   margin: 0 auto;
   max-width: 1160px;
 }
 
-@media only screen and (min-width: 550px) {
+@media only screen and (min-width: 900px) {
   #projects-container {
-    width: 80%;
+    width: 95%;
   }
 }
 
@@ -771,6 +773,14 @@ body {
   }
 }
 
+@media only screen and (max-width: 760px) {
+  .logo-container {
+    display: none;
+  }
+}
+
+
+
 /* Optional: Add a class for the timeline link or interaction */
 .timeline-link {
   display: inline-block;
@@ -925,6 +935,12 @@ img[alt="Hugging Face Logo"] {
   }
 
   .experience-right {
+    position: static;
+    transform: none;
+    margin-top: 1rem;
+  }
+
+  .experience-rightepfl {
     position: static;
     transform: none;
     margin-top: 1rem;

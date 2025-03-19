@@ -9,7 +9,7 @@
               <h5 class="mb-2">{{ item.school }}</h5>
               <h6 class="date" style="color: #b3b3b3;">{{ item.from }} — {{ item.to }}</h6>
             </div>
-            <div class="ms-4">
+            <div class="ms-4 logo-container">
               {% if item.school contains "EPFL" %}
                 <img src="{{ site.baseurl }}/assets/img/EPFL_Logo_184X53.svg" alt="EPFL Logo" style="height: 40px;">
               {% elsif item.school contains "ETH" %}
