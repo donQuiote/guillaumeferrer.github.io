@@ -4,21 +4,19 @@
 
 <div class="skills-container">
   <div class="skills-grid">
-    <!-- Colonne de gauche : texte descriptif -->
     <div class="skills-text">
       <h3>Technical Skills</h3>
-      <p>I specialize in developing analytical solutions and financial models, leveraging Python and C++ for data processing, algorithm design, and performance optimization.</p>
-
-      <h3>Expertise</h3>
-      <ul>
-        <li>Design and implementation of quantitative finance algorithms</li>
-        <li>Statistical modeling and machine learning</li>
-        <li>Performance optimization and distributed system architecture</li>
-        <li>Analysis and visualization of complex financial data</li>
-      </ul>
+        <p>
+          I specialize in building data analysis and financial models, utilizing Python and C++ for efficient data processing and algorithm development.
+        </p>
+        <h3>Expertise</h3>
+        <ul>
+          <li>Financial data analysis and visualization</li>
+          <li>Systematic trading algorithm design and implementation</li>
+          <li>Statistical modeling and machine learning</li>
+        </ul>
     </div>
 
-    <!-- Colonne de droite : barres de progression -->
     <div class="skills-bars">
       {% for skill in site.data.programming-skills %}
         <div class="skill-item" data-tooltip="{{ skill.name }}">
@@ -89,18 +87,20 @@
 .skills-text h3 {
   margin-top: 1.5rem;
   margin-bottom: 1rem;
-  color: var(--text-color);
+  color: #d3d3d3;
 }
 
 .skills-text p {
   margin-bottom: 1.5rem;
   line-height: 1.6;
+  color: #d3d3d3
 }
 
 .skills-text ul {
   list-style-type: none;
   padding-left: 0;
   margin: 0;
+  color: #d3d3d3
 }
 
 .skills-text li {
@@ -111,7 +111,7 @@
 
 .skills-text li:before {
   content: "•";
-  color: var(--primary-color);
+  color: #d3d3d3;
   position: absolute;
   left: 0;
 }

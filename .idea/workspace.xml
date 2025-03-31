@@ -4,7 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8df9529b-bf70-4158-b8e7-ca02cf4f208f" name="Changes" comment="Fill out the projects next" />
+    <list default="true" id="8df9529b-bf70-4158-b8e7-ca02cf4f208f" name="Changes" comment="#Todo itemize exp clean projet">
+      <change afterPath="$PROJECT_DIR$/_projects/(1) IBKR.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_projects/(2) PR.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_projects/(6) MLFIN.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_projects/(7) Storage_Option.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/DL_KL_arch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/ESA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/Efficient_frontier_R0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/IBKR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/MouLa.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/experience.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/experience.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/timeline.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/timeline.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/skills.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/skills.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_projects/(0) website.md" beforeDir="false" afterPath="$PROJECT_DIR$/_projects/(3) website.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_projects/(1) Stochastic_Sim.md" beforeDir="false" afterPath="$PROJECT_DIR$/_projects/(4) Stochastic_Sim.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_projects/(2) Deep_learning.md" beforeDir="false" afterPath="$PROJECT_DIR$/_projects/(5) Deep_learning.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_projects/(3) MLFIN.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_projects/(4) Deep_learning.md" beforeDir="false" afterPath="$PROJECT_DIR$/_projects/(4) Deep_learning.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_projects/(5) MLESA.md" beforeDir="false" afterPath="$PROJECT_DIR$/_projects/(5) MLESA.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_projects/(6) Storage_Option.md" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,22 +66,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JavaScript Debug.libraries.html.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/guillaumeferrer/Desktop/Website/guillaumeferrer.github.io/_projects&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JavaScript Debug.libraries.html.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/guillaumeferrer/Desktop/Website/guillaumeferrer.github.io/assets/img",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/img" />
       <recent name="$PROJECT_DIR$/_projects" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -97,6 +120,11 @@
       <workItem from="1740647838740" duration="5543000" />
       <workItem from="1741899103681" duration="31075000" />
       <workItem from="1742340721327" duration="56000" />
+      <workItem from="1742425796852" duration="87000" />
+      <workItem from="1742939283550" duration="7384000" />
+      <workItem from="1743028620377" duration="147000" />
+      <workItem from="1743451108429" duration="6209000" />
+      <workItem from="1743459653245" duration="2124000" />
     </task>
     <task id="LOCAL-00001" summary="small tests">
       <option name="closed" value="true" />
@@ -250,7 +278,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742340771123</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="#Todo itemize exp clean projet">
+      <option name="closed" value="true" />
+      <created>1742425874277</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1742425874277</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,6 +316,7 @@
     <MESSAGE value="Cleaned, Professional expreience missing" />
     <MESSAGE value="Forgot to add the svg" />
     <MESSAGE value="Fill out the projects next" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fill out the projects next" />
+    <MESSAGE value="#Todo itemize exp clean projet" />
+    <option name="LAST_COMMIT_MESSAGE" value="#Todo itemize exp clean projet" />
   </component>
 </project>
