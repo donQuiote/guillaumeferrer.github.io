@@ -7,6 +7,12 @@
     <list default="true" id="8df9529b-bf70-4158-b8e7-ca02cf4f208f" name="Changes" comment="Final">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/experience.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/experience.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_projects/(4) Deep_learning.md" beforeDir="false" afterPath="$PROJECT_DIR$/_projects/(8) Deep_learning.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_projects/(5) Deep_learning.md" beforeDir="false" afterPath="$PROJECT_DIR$/_projects/(5) Big_Data.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_projects/(5) MLESA.md" beforeDir="false" afterPath="$PROJECT_DIR$/_projects/(9) MLESA.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_projects/(6) MLFIN.md" beforeDir="false" afterPath="$PROJECT_DIR$/_projects/(6) MLFIN.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +112,8 @@
       <workItem from="1743028620377" duration="147000" />
       <workItem from="1743451108429" duration="6209000" />
       <workItem from="1743459653245" duration="2146000" />
-      <workItem from="1744840468908" duration="487000" />
+      <workItem from="1744840468908" duration="733000" />
+      <workItem from="1745146364830" duration="2099000" />
     </task>
     <task id="LOCAL-00001" summary="small tests">
       <option name="closed" value="true" />
@@ -276,7 +283,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743461800833</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Final">
+      <option name="closed" value="true" />
+      <created>1744840961411</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1744840961411</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

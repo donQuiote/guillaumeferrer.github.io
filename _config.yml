@@ -20,8 +20,8 @@
 
 # User settings
 username: Guillaume Ferrer
-user_description: "Welcome to my website! I’m a soon-to-be graduate and aspiring quantitative researcher in finance, driven by a passion for programming, data science, and machine learning. This site serves as both a portfolio and a way to share my diverseprojects. I’m always eager to take on new challenges and explore innovative ideas, pushing myself to learn and grow with each project. Feel free to reach out to discuss potential collaborations, exchange ideas, or simply chat about finance, technology, and machine learning. I’d love to connect!"
-user_title: M.Sc. in Financial Engineering & Quantitative Researcher
+user_description: "Welcome to my website! I’m a soon-to-be graduate and aspiring quantitative researcher in finance, driven by a passion for programming, data science, and machine learning. This site serves as both a portfolio and a way to share my diverse projects. I’m always eager to take on new challenges and explore innovative ideas, pushing myself to learn and grow with each project. Feel free to reach out to discuss, exchange ideas, or simply chat about finance, technology, and machine learning. I’d love to connect!"
+user_title: Financial Engineering & Quantitative
 
 # Google-analytics
 google-analytics:
@@ -53,7 +53,6 @@ github_username:  donQuiote
 
 # Build settings
 theme: minima
-#remote_theme: nrandecker/particle
 plugins:
   - jekyll-feed
   - jekyll-remote-theme # add this line to the plugins list if you already have one
