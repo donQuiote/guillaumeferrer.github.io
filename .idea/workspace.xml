@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8df9529b-bf70-4158-b8e7-ca02cf4f208f" name="Changes" comment="Final">
+      <change afterPath="$PROJECT_DIR$/_projects/(0) MuP.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_data/experience.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/experience.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_projects/(4) Deep_learning.md" beforeDir="false" afterPath="$PROJECT_DIR$/_projects/(8) Deep_learning.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_projects/(5) Deep_learning.md" beforeDir="false" afterPath="$PROJECT_DIR$/_projects/(5) Big_Data.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_projects/(5) MLESA.md" beforeDir="false" afterPath="$PROJECT_DIR$/_projects/(9) MLESA.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_projects/(6) MLFIN.md" beforeDir="false" afterPath="$PROJECT_DIR$/_projects/(6) MLFIN.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/timeline.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/timeline.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/experience.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/experience.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,24 +50,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JavaScript Debug.libraries.html.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/guillaumeferrer/Desktop/Website/guillaumeferrer.github.io/assets/img&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JavaScript Debug.libraries.html.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/guillaumeferrer/Desktop/Website/guillaumeferrer.github.io/_projects",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets/img" />
       <recent name="$PROJECT_DIR$/_projects" />
+      <recent name="$PROJECT_DIR$/assets/img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/img" />
@@ -113,7 +110,11 @@
       <workItem from="1743451108429" duration="6209000" />
       <workItem from="1743459653245" duration="2146000" />
       <workItem from="1744840468908" duration="733000" />
-      <workItem from="1745146364830" duration="2099000" />
+      <workItem from="1745146364830" duration="2600000" />
+      <workItem from="1749466633196" duration="31000" />
+      <workItem from="1750799926677" duration="4000" />
+      <workItem from="1759858288286" duration="960000" />
+      <workItem from="1759859254339" duration="2251000" />
     </task>
     <task id="LOCAL-00001" summary="small tests">
       <option name="closed" value="true" />
@@ -291,7 +292,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744840961411</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Final">
+      <option name="closed" value="true" />
+      <created>1745148770469</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1745148770469</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
